@@ -84,11 +84,6 @@ public class tugas4 {
 		}
 
 		System.out.println();
-		System.out.println("(Opsional) Masukkan URL Git project jika ingin disimpan: ");
-		System.out.print("URL Git: ");
-		String gitUrl = sc.nextLine().trim();
-
-		System.out.println();
 		System.out.println("======================================================");
 		System.out.println();
 		System.out.printf("Nim     : %s\n", mhs.getNim());
@@ -116,14 +111,10 @@ public class tugas4 {
 		}
 		System.out.println("----------------------------------------------------------------------------------------");
 
-		if (!gitUrl.isEmpty()) {
-			System.out.println();
-			System.out.println("Git project URL: " + gitUrl);
-		}
-
 		sc.close();
 		System.out.println();
 		System.out.println("Selesai. Terima kasih.");
 
 	}
 }
+
